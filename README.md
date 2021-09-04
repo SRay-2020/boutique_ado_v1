@@ -48,7 +48,20 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 5. python3 manage.py migrate - To run migrations
 
-6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990)
+6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990) (newguy1 newdawn2021)
 
 7. Initial Commit
+
+
+------
+
+## Django-Allauth for authorisation 
+
+1. pip3 install django-allauth==0.41.0
+
+2. Add allauth additional settings to settings and urls.py fils (see video Allauth Setup 1)
+
+3. Navigate to admin of site - open port 8000 /admin + login details
+
+4. Migrate app for new additions (python3 manage.py migrate)
 
