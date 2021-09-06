@@ -36,6 +36,12 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
+## REQUIREMENTS
+
+pip3 install -r requirements.txt
+
+------
+
 ## Setting Up Django Project
 
 1. pip3 install django 
