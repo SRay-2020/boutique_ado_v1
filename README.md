@@ -36,9 +36,11 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
-## REQUIREMENTS
+## Quickstart REQUIREMENTS
 
 pip3 install -r requirements.txt
+
+python3 manage.py runserver (Run project)
 
 ------
 
