@@ -44,6 +44,17 @@ python3 manage.py runserver (Run project)
 
 ------
 
+
+
+## Creating New Apps
+
+python3 manage.py startapp 'name'
+
+Add to INSTALLED APPS in Settings.py
+
+
+------
+
 ## Setting Up Django Project
 
 1. pip3 install django 
