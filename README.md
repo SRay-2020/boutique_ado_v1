@@ -73,3 +73,15 @@ python3 manage.py runserver (Run project)
 
 4. Migrate app for new additions (python3 manage.py migrate)
 
+
+------
+
+## Migrations 
+
+1. python3 manage.py makemigrations --dry-run
+
+2. python3 manage.py makemigrations 
+
+3. python3 manage.py migrate --plan
+
+4. python3 manage.py migrate 
