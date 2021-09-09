@@ -36,11 +36,10 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ------
 
-## Quickstart REQUIREMENTS
+## REQUIREMENTS
 
 pip3 install -r requirements.txt
 
-python3 manage.py runserver (Run project)
 
 ------
 
@@ -96,3 +95,33 @@ Add to INSTALLED APPS in Settings.py
 3. python3 manage.py migrate --plan
 
 4. python3 manage.py migrate 
+
+------
+
+## Loading Data
+
+1. python3 manage.py loaddata categories
+
+2. python3 manage.py loaddata products
+
+------
+
+## Quickstart for project
+
+1. pip3 install -r requirements.txt
+
+2. python3 manage.py makemigrations --dry-run
+
+3. python3 manage.py makemigrations 
+
+4. python3 manage.py migrate --plan
+
+5. python3 manage.py migrate 
+
+6. python3 manage.py loaddata categories
+
+7. python3 manage.py loaddata products
+
+8. python3 manage.py runserver
+
+------
