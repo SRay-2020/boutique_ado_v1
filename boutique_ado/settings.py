@@ -50,7 +50,7 @@ INSTALLED_APPS = [
 
     # Other
 
-    'crispy-forms',
+    'crispy_forms',
 ]
 
 
