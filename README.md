@@ -124,4 +124,7 @@ Add to INSTALLED APPS in Settings.py
 
 8. python3 manage.py runserver
 
+9.  export STRIPE_PUBLIC_KEY=pk_test_51JYSDEAQb6q0x2KwgVMPWeio4ynVOjfeAOYiTKJY5j1PuNt9fq5ydDkuAeave2L5qf5YqBphC2KCkmhqzVQ0yQxA00dRAxgEED
+
+10. export STRIPE_SECRET_KEY=sk_test_51JYSDEAQb6q0x2KwYN4xfF2sbuhyLr1PP3L75QVtfa54AHeOZKL4LtABmw8R5CrElDKq6kDnLfsrMiGvQnmk7SuC00Che5f4US
 ------
