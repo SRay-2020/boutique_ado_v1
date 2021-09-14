@@ -21,7 +21,7 @@ def checkout(request):
         form_data = {
             'full_name': request.POST['full_name'],
             'email': request.POST['email'],
-            'phone_number': request.POST['phone_number''],
+            'phone_number': request.POST['phone_number'],
             'country': request.POST['country'],
             'postcode': request.POST['postcode'],
             'town_or_city': request.POST['town_or_city'],
@@ -33,7 +33,7 @@ def checkout(request):
         if order_form.is_valid():
             order = order_form.save()
             for item_id, item_data in bag.items():
-                                try:
+                try:
                     product = Product.objects.get(id=item_id)
                     if isinstance(item_data, int):
                         order_line_item = OrderLineItem(
@@ -96,7 +96,7 @@ def checkout(request):
 
     return render(request, template, context)
 
-    def checkout_success(request, order_number):
+def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
