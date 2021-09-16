@@ -66,7 +66,7 @@ Add to INSTALLED APPS in Settings.py
 
 5. python3 manage.py migrate - To run migrations
 
-6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990) (newguy1 newdawn2021)
+6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990) (newguy1 newdawn2021) starkillerbase - starwars1
 
 7. Initial Commit
 
@@ -122,9 +122,10 @@ Add to INSTALLED APPS in Settings.py
 
 7. python3 manage.py loaddata products
 
-8. python3 manage.py runserver
+8. export STRIPE_SECRET_KEY=sk_test_51JYSDEAQb6q0x2KwYN4xfF2sbuhyLr1PP3L75QVtfa54AHeOZKL4LtABmw8R5CrElDKq6kDnLfsrMiGvQnmk7SuC00Che5f4US
 
-9.  export STRIPE_PUBLIC_KEY=pk_test_51JYSDEAQb6q0x2KwgVMPWeio4ynVOjfeAOYiTKJY5j1PuNt9fq5ydDkuAeave2L5qf5YqBphC2KCkmhqzVQ0yQxA00dRAxgEED
+9. export STRIPE_PUBLIC_KEY=pk_test_51JYSDEAQb6q0x2KwgVMPWeio4ynVOjfeAOYiTKJY5j1PuNt9fq5ydDkuAeave2L5qf5YqBphC2KCkmhqzVQ0yQxA00dRAxgEED
 
-10. export STRIPE_SECRET_KEY=sk_test_51JYSDEAQb6q0x2KwYN4xfF2sbuhyLr1PP3L75QVtfa54AHeOZKL4LtABmw8R5CrElDKq6kDnLfsrMiGvQnmk7SuC00Che5f4US
+10. python3 manage.py runserver 
+
 ------
