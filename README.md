@@ -129,3 +129,11 @@ Add to INSTALLED APPS in Settings.py
 10. python3 manage.py runserver 
 
 ------
+
+## Heroku Login
+
+------
+
+If heroku login doesn't work, use 
+
+'heroku login -i'
