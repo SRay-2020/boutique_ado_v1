@@ -66,7 +66,7 @@ Add to INSTALLED APPS in Settings.py
 
 5. python3 manage.py migrate - To run migrations
 
-6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990) (newguy1 newdawn2021) starkillerbase - starwars1
+6. python3 manage.py createsuperuser - To create admin user (sray1990, s.r.ray@gmail, Password1990) (newguy1 newdawn2021) starkillerbase - starwars1) ( yoda2021 1withtheforce)
 
 7. Initial Commit
 
