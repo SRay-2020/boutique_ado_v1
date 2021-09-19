@@ -137,3 +137,5 @@ Add to INSTALLED APPS in Settings.py
 If heroku login doesn't work, use 
 
 'heroku login -i'
+
+'git push -u heroku' - *** No master!
