@@ -139,3 +139,9 @@ If heroku login doesn't work, use
 'heroku login -i'
 
 'git push -u heroku' - *** No master!
+
+## Code Refactoring
+
+------
+
+python3 -m flake8
