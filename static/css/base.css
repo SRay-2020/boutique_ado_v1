@@ -44,6 +44,13 @@ body {
     border: 1px solid black;
 }
 
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -63,17 +70,17 @@ body {
 }
 
 .bg-black {
-    background: #000!important;
+    background: #000 !important;
 }
 
 .overlay {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    background: #fff;
-    z-index: -1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 a.category-badge > span.badge:hover {
@@ -89,24 +96,23 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link
- {
-    cursor: pointer;
-}
-
-.update-link  {
-    cursor: pointer;
-}
-
+.btt-link,
+.update-link,
 .remove-item {
     cursor: pointer;
 }
+
+input[name='q']::placeholder {
+    color: #aab7c4;
+}
+
+/* ------------------------------- bootstrap toasts */
 
 .message-container {
     position: fixed;
     top: 72px;
     right: 15px;
-    z-index: 9999999;
+    z-index: 99999999999;
 }
 
 .custom-toast {
@@ -177,7 +183,7 @@ a.category-badge > span.badge:hover {
   }
 }
 
-/* Allauth formatting */
+/* Allauth form formatting */
 
 .allauth-form-inner-content p {
     margin-top: 1.5rem; /* mt-4 */
@@ -231,7 +237,7 @@ a.category-badge > span.badge:hover {
 	color: #17a2b8; /* text-info */
 }
 
-/* Product Form Image Field */
+/* Product Form */
 
 .btn-file {
     position: relative;
@@ -260,11 +266,6 @@ a.category-badge > span.badge:hover {
 }
 
 
-
-
-
-
-
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -279,7 +280,6 @@ a.category-badge > span.badge:hover {
         padding-top: 164px;
     }
 }
-
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
